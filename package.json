@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next lint --fix"
+    "lint:fix": "next lint --fix",
+    "test": "jest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -33,6 +34,7 @@
     "msw": "^2.9.0",
     "tailwindcss": "^4",
     "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
